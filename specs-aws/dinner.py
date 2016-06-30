@@ -37,7 +37,7 @@ def construct_runner(command, limiter, prefix):
         old_time = r.getrusage(r.RUSAGE_CHILDREN)[0]
         # try to execute command in separate process
         try:
-            result = subprocess.check_output([command] + args, preexec_fn=limiter)
+            result = subprocess.check_output([command] + ["synth"] + args, preexec_fn=limiter)
         except subprocess.CalledProcessError as e:
             result = e.output
         # construct output dict with default column
