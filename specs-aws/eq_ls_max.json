@@ -1,0 +1,13 @@
+{
+  "name": "eq_ls_max",
+  "description":
+    "min.",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_mult_q  [2 3] [4 5]) -> [5]",
+      "(eq_mult_q  [6 5] [1 2 3] ) -> [6]"
+    ],
+    "background": []
+  }
+}

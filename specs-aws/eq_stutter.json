@@ -1,0 +1,14 @@
+{
+  "name": "eq_stutter",
+  "description":
+    "min.",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_mult_q  [2] [1 2 3]) -> [3 3 3]",
+      "(eq_mult_q  [4 5 6 7] [2 3] ) -> [4 4 4 4]",
+      "(eq_mult_q  [11] [10] ) -> [1]"
+    ],
+    "background": []
+  }
+}

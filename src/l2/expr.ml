@@ -84,7 +84,8 @@ module Op = struct
       Cons,     { typ = t "(a, list[a]) -> list[a]";
                   commut = false; assoc = false; str = "cons"; cost = 1; };
       Car,      { typ = t "(list[a]) -> a"; commut = false; assoc = false; str = "car"; cost = 1; };
-      Cdr,      { typ = t "(list[a]) -> list[a]"; commut = false; assoc = false; str = "cdr"; cost = 1; };
+      Cdr,      { typ = t "(list[a]) -> list[a]"; commut = false; assoc = false;
+      str = "cdr"; cost = 100; };
 
     ] |> Map.of_alist_exn
 

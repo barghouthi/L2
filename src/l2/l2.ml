@@ -244,7 +244,7 @@ let synth_command =
       printf "Runtime: %s\n" (Time.Span.to_short_string solve_time);
       begin
         match m_solution with
-        | `Solution s -> printf "Found solution:\n%s" s
+        | `Solution s -> printf "Found solution:\n%s\n\n" s
         | `NoSolution -> printf "No solution found."
       end;
 
