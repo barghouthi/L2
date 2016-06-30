@@ -1,0 +1,14 @@
+{
+  "name": "eq_sum_to_first",
+  "description":
+    "min.",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_mult_q  [1 4] [12 86]) -> [103 0]",
+      "(eq_mult_q  [780 342] [0 5] ) -> [1127 0]",
+      "(eq_mult_q [123 512] [157 832]) -> [1624 0]"
+    ],
+    "background": []
+  }
+}

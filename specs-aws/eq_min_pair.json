@@ -1,0 +1,14 @@
+{
+  "name": "eq_min_pair",
+  "description":
+    "min.",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_mult_q  [1 4] [12 86]) -> [1 4]",
+      "(eq_mult_q  [780 342] [0 5] ) -> [0 5]",
+      "(eq_mult_q [123 512] [157 832]) -> [123 512]"
+    ],
+    "background": []
+  }
+}

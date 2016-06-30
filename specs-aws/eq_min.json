@@ -1,0 +1,14 @@
+{
+  "name": "min",
+  "description":
+    "min.",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_max 2 3 ) -> 3",
+      "(eq_max 7 6) -> 7",
+      "(eq_max 100 8) -> 100"
+    ],
+    "background": []
+  }
+}

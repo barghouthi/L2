@@ -1,0 +1,14 @@
+{
+  "name": "eq_add_c",
+  "description":
+    "min.",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_mult_q  [1 4] [12 86]) -> [13 90]",
+      "(eq_mult_q  [780 342] [0 5] ) -> [780 347]",
+      "(eq_mult_q [123 512] [157 832]) -> [280 1344]"
+    ],
+    "background": []
+  }
+}

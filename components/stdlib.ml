@@ -32,6 +32,7 @@ let mapi l f =
   in
   mapi_k l f 0
 
+
 let rec mapt = fun t f ->
   if t = {} then {} else
     tree (f (value t)) (map (children t) (fun c -> mapt c f))
@@ -202,3 +203,4 @@ let abs x =
 
 let even x = x % 2 = 0
 let odd x = not (even x)
+

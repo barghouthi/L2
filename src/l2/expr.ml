@@ -71,8 +71,6 @@ module Op = struct
       Plus,     { typ = t "(num, num) -> num"; commut = true; assoc = true; str = "+"; cost = 1; };
       Minus,    { typ = t "(num, num) -> num"; commut = false; assoc = false; str = "-"; cost = 1; };
       Mul,      { typ = t "(num, num) -> num"; commut = true; assoc = true;  str = "*"; cost = 1; };
-      Div,      { typ = t "(num, num) -> num"; commut = false; assoc = false; str = "/"; cost = 1; };
-      Mod,      { typ = t "(num, num) -> num"; commut = false; assoc = false; str = "%"; cost = 1; };
       Eq,       { typ = t "(a, a) -> bool"; commut = true; assoc = false; str = "="; cost = 1; };
       Neq,      { typ = t "(a, a) -> bool"; commut = true; assoc = false; str = "!="; cost = 1; };
       Lt,       { typ = t "(num, num) -> bool"; commut = false; assoc = false; str = "<"; cost = 1; };
@@ -83,17 +81,10 @@ module Op = struct
       Or,       { typ = t "(bool, bool) -> bool"; commut = true; assoc = true;  str = "|"; cost = 1; };
       Not,      { typ = t "(bool) -> bool"; commut = false; assoc = false; str = "~"; cost = 1; };
       If,       { typ = t "(bool, a, a) -> a"; commut = false; assoc = false; str = "if"; cost = 1; };
-      RCons,    { typ = t "(list[a], a) -> list[a]"; commut = false; assoc = false; str = "rcons"; cost = 1; };
       Cons,     { typ = t "(a, list[a]) -> list[a]";
                   commut = false; assoc = false; str = "cons"; cost = 1; };
       Car,      { typ = t "(list[a]) -> a"; commut = false; assoc = false; str = "car"; cost = 1; };
       Cdr,      { typ = t "(list[a]) -> list[a]"; commut = false; assoc = false; str = "cdr"; cost = 1; };
-      Tree,     { typ = t "(a, list[tree[a]]) -> tree[a]";
-                  commut = false; assoc = false; str = "tree"; cost = 1; };
-      Children, { typ = t "(tree[a]) -> list[tree[a]]";
-                  commut = false; assoc = false; str = "children"; cost = 1; };
-      Value,    { typ = t "(tree[a]) -> a"; commut = false; assoc = false; str = "value"; cost = 1; };
-
 
     ] |> Map.of_alist_exn
 
