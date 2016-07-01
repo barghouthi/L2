@@ -1,2 +1,3 @@
-(* extended ints *)
-let abs x = if x < 0 then (-1) * x else x
+(* ext ints *)
+let max x y = if x>y then x else y
+let min x y = if x < y then x else y

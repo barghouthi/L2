@@ -17,3 +17,8 @@ cat pairs.ml >> ints-pairs.ml
 echo "" > ints-lists.ml
 cat ints.ml >> ints-lists.ml
 cat lists.ml >> ints-lists.ml
+
+echo "" > ints-ext-lists.ml
+cat ints.ml >> ints-ext-lists.ml
+cat ints-ext.ml >> ints-ext-lists.ml
+cat lists.ml >> ints-ext-lists.ml
