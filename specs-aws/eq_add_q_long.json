@@ -1,0 +1,14 @@
+{
+  "name": "eq_add_q_long",
+  "description":
+    "min.",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_mult_q  2 2 4 3) -> [14 6]",
+      "(eq_mult_q  6 7 18 11 ) -> [192 77]",
+      "(eq_mult_q 100 8 7 5) -> [556 40]"
+    ],
+    "background": []
+  }
+}

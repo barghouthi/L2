@@ -1,0 +1,14 @@
+{
+  "name": "add",
+  "description":
+    "add",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_max 2 3 ) -> 5",
+      "(eq_max 7 6) -> 13",
+      "(eq_max 100 8) -> 108"
+    ],
+    "background": []
+  }
+}

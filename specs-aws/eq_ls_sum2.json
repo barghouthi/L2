@@ -1,0 +1,13 @@
+{
+  "name": "eq_ls_sum",
+  "description":
+    "min.",
+  "kind": "examples",
+  "contents": {
+    "examples": [
+      "(eq_mult_q  [1 2 3] [4 5]) -> [17]",
+      "(eq_mult_q  [5 5 ] [1 2 3] ) -> [18]"
+    ],
+    "background": []
+  }
+}
