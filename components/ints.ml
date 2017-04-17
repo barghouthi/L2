@@ -1,4 +1,2 @@
 (*  ints *)
-let abs x = if x < 0 then (-1) * x else x
-
-
+let abs x = if x > 0 then x else (-1)*x

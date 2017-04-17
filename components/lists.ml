@@ -5,13 +5,15 @@ let rec cat = fun l1 l2 ->
     (car l1) :: (cat (cdr l1) l2)
 
 let rec stutter x n = 
-    if n <= 0 then [] else x :: (stutter x (n - 1))
+    if n > 0 then  x :: (stutter x (n - 1)) else []
 
 let rec length x = 
     if x = [] then 0 else 1 + length (cdr x)
 
 let rec sum x =
   if x = [] then 0 else (car x) + (sum (cdr x))
+
+let mkList x = [x]
 
 let minl x = 
     let rec filter = fun l f ->

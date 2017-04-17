@@ -88,10 +88,10 @@ module Op = struct
 
   let all = Map.keys metadata_by_op
   let control = [ If; ]
-  let cmp = [ Eq; Neq; Lt; Leq; Gt; Geq; ]
-  let logic = [ And; Or; Not; ]
+  let cmp = [ ]
+  let logic = [  ]
   let list = [ Cons; Car; Cdr; ]
-  let tree = [ Tree; Children; Value; ]
+  let tree = [  ]
   let simple_arith = [ Plus; Minus; ]
   let arith = [ Plus; Minus; Mul; Div; Mod; ]
 

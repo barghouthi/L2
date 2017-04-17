@@ -3,17 +3,17 @@
     "bool": 1,
     "hole": 0,
     "lambda": 1,
-    "_let": 1,
+    "_let": 10,
     "list": 1,
-    "tree": 1,
+    "tree": 100,
     "var ": 1,
     "call": {
-        "foldr": 3,
-        "foldl": 3,
-        "foldt": 3,
-        "map": 2,
-        "mapt": 2,
-        "filter": 2
+        "foldr": 30,
+        "foldl": 30,
+        "foldt": 30,
+        "map": 20,
+        "mapt": 20,
+        "filter": 20
     },
-    "call_default": 1
+    "call_default": 10
 }
